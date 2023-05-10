@@ -6,7 +6,6 @@ const getSomething = () => {
       resolve(13);
     }, 1000)
   })
-  
 }
 
 const system = () => {
@@ -17,5 +16,4 @@ const system = () => {
   })
   console.log('end')
 }
-
 system();

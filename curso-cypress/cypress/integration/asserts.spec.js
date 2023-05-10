@@ -2,7 +2,6 @@
 
 it('Equality', () => {
   const a = 1;
-
   expect(a).equal(1);
   expect(a, 'Deveria ser 1').equal(2);
   expect(a).equal(1);
@@ -85,10 +84,5 @@ it('Numbers', () => {
   expect(number).to.be.below(7)
   expect(number).to.be.equal(5.2123)
   expect(number).to.be.closeTo(5.2, 0.1)
-
-
-
-
-
-
+  
 })
